@@ -1,0 +1,71 @@
+# Archivos y directorios generados por Flutter
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.metadata
+build/
+*.iml
+*.packages
+pubspec.lock
+
+# Archivos y directorios específicos de Android
+android/.gradle
+android/local.properties
+android/**/build/
+android/**/*.iml
+android/captures/
+android/gradlew
+android/gradlew.bat
+android/.idea/
+android/.kotlin/
+
+# Archivos y directorios específicos de iOS
+ios/.symlinks/
+ios/Flutter/.last_build_id
+ios/.generated/
+ios/Pods/
+ios/.idea/
+ios/Runner.xcworkspace/contents.xcworkspacedata
+ios/Runner.xcodeproj/project.xcworkspace/contents.xcworkspacedata
+
+# Archivos y directorios específicos de Web
+web/
+# Si no quieres ignorar toda la carpeta web, puedes ser más específico:
+# web/index.html
+# web/manifest.json
+# web/favicon.png
+# web/icons/
+
+# Archivos y directorios específicos de Linux
+linux/build/
+linux/plugins/
+linux/generated/
+
+# Archivos y directorios específicos de macOS
+macos/build/
+macos/plugins/
+macos/generated/
+
+# Archivos y directorios específicos de Windows
+windows/build/
+windows/plugins/
+windows/generated/
+
+# Archivos de IDE (IntelliJ, VS Code, etc.)
+.idea/
+.vscode/
+*.suo
+*.user
+*.userosf
+*.sln.docstates
+
+# Archivos de depuración y temporales
+*.log
+*.stackdump
+*.DS_Store
+Thumbs.db
+
+# Archivos de claves y credenciales (si los tienes)
+# Asegúrate de no subir nunca tus claves privadas o credenciales.
+# key.properties
+# upload-keystore.jks
